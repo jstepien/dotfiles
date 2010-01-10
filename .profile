@@ -46,8 +46,6 @@ function grh {
 	grep "$*" ~/.bash_history
 }
 
-complete -C $HOME/scripts/rake-complete.rb -o default rake
-
 eval `TERM=xterm dircolors -b`
 
 test -f ~/.private && source ~/.private
