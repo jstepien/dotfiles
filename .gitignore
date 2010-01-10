@@ -1,0 +1,9 @@
+*
+!.bashrc
+!.gitignore
+!.inputrc
+!.profile
+!.vim
+!.vimrc
+!.scripts
+!.scripts/rake-complete.rb
