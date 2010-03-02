@@ -28,8 +28,8 @@ alias grep='grep --color'
 alias pst="pstree -pu $USER"
 alias rtorrent='nice ionice -n7 rtorrent'
 alias httpd='python -m SimpleHTTPServer'
-alias buildtorrent='buildtorrent -a \
-	http://tracker.openbittorrent.com:80/announce'
+alias buildtorrent="buildtorrent -a \
+	http://tracker.openbittorrent.com:80/announce"
 alias dus='du -s * | sort -g'
 
 # Git!
