@@ -4,6 +4,8 @@
 !.inputrc
 !.profile
 !.vim
+!.vim/colors
+!.vim/colors/mocha.vim
 !.vimrc
 !.scripts
 !.scripts/rake-complete.rb
