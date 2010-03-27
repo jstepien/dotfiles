@@ -46,6 +46,14 @@ function grh {
 	grep "$*" ~/.bash_history
 }
 
+function svn {
+	if test "x$1" = "xdiff"; then
+		env svn $* | colordiff | less
+	else
+		env svn $*
+	fi
+}
+
 eval `TERM=xterm dircolors -b`
 
 test -f ~/.private && source ~/.private
