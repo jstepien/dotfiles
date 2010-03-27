@@ -13,6 +13,8 @@ syntax on
 
 if has("autocmd")
 	filetype plugin indent on
+	autocmd Filetype java setlocal omnifunc=javacomplete#Complete
+	imap <C-space> <C-x><C-o>
 else
 	set autoindent
 endif
@@ -39,3 +41,6 @@ au BufRead,BufNewFile *.vapi            setfiletype vala
 let vala_comment_strings = 1
 let vala_space_errors = 1
 let vala_no_tab_space_error = 1
+
+" Squirrel
+au BufNewFile,BufRead *.nut setf squirrel
