@@ -11,6 +11,8 @@ set number
 set backupdir=~/.vim/backups,.,~
 syntax on
 
+colorscheme mocha
+
 if has("autocmd")
 	filetype plugin indent on
 	autocmd Filetype java setlocal omnifunc=javacomplete#Complete
