@@ -24,3 +24,5 @@ function svn {
 		env svn $*
 	fi
 }
+
+test -f /etc/bash_completion && source /etc/bash_completion
