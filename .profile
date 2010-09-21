@@ -37,6 +37,7 @@ alias gst='git status'
 alias gsh='git show'
 alias gco='git commit'
 alias gdi='git diff'
+alias gfa='git fetch --all'
 
 eval `TERM=xterm dircolors -b`
 
