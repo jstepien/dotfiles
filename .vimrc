@@ -15,16 +15,17 @@ colorscheme mocha
 
 if has("autocmd")
 	filetype plugin indent on
-	autocmd Filetype java setlocal omnifunc=javacomplete#Complete
-	imap <C-space> <C-x><C-o>
 else
 	set autoindent
 endif
 
-nmap gr :tabprevious<CR>
-nmap <C-q> :qall<CR>
-nmap <C-n> :tabnew<CR>
-nmap <F12> :!ctags -R .<CR>
+nnoremap gr :tabprevious<CR>
+nnoremap <C-q> :qall<CR>
+nnoremap <C-n> :tabnew<CR>
+nnoremap <F12> :!ctags -R .<CR>
+nnoremap <C-a> GVgg
+inoremap <C-space> <C-x><C-u>
+inoremap kj <Esc>
 
 " Git
 au BufNewFile,BufRead COMMIT_EDITMSG setlocal textwidth=75 fileencoding=utf-8 encoding=utf-8 filetype=gitcommit spell
