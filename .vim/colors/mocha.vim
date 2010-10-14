@@ -27,7 +27,7 @@ hi MoreMsg      guifg=SeaGreen        gui=none
 hi NonText      guifg=cyan            gui=none
 hi Question     guifg=springgreen     gui=none
 hi Search       guifg=gray80          guibg=#445599  gui=none
-hi SpecialKey   guifg=cyan            gui=none
+hi SpecialKey   guifg=#564d43         gui=none
 hi StatusLine   guifg=black           guibg=#c2bfa5  gui=bold
 hi StatusLineNC guifg=white           guibg=gray20   gui=none
 hi TabLine      guibg=#564d43         guifg=#f7f7f1  gui=underline
