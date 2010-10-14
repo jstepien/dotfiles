@@ -1,5 +1,6 @@
 set tabstop=4
 set shiftwidth=4
+set softtabstop=4
 set spelllang=pl,en
 set nocompatible
 set backspace=2
@@ -9,6 +10,10 @@ set wildmenu
 set tw=78
 set number
 set backupdir=~/.vim/backups,.,~
+set scrolloff=3
+set showmode
+set list
+set listchars=tab:▸\ ,trail:·
 syntax on
 
 colorscheme mocha
@@ -19,13 +24,24 @@ else
 	set autoindent
 endif
 
+let mapleader = ','
+
 nnoremap gr :tabprevious<CR>
 nnoremap <C-q> :qall<CR>
 nnoremap <C-n> :tabnew<CR>
 nnoremap <F12> :!ctags -R .<CR>
-nnoremap <C-a> GVgg
-inoremap <C-space> <C-x><C-u>
+nnoremap <leader>a GVgg
 inoremap kj <Esc>
+" Use normal regexps
+nnoremap / /\v
+vnoremap / /\v
+" Tab matches brackets
+nnoremap <tab> %
+vnoremap <tab> %
+" Disable help
+inoremap <f1> <esc>
+nnoremap <f1> <esc>
+vnoremap <f1> <esc>
 
 " Git
 au BufNewFile,BufRead COMMIT_EDITMSG setlocal textwidth=75 fileencoding=utf-8 encoding=utf-8 filetype=gitcommit spell
