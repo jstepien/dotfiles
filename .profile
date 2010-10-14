@@ -33,7 +33,7 @@ alias buildtorrent="buildtorrent -a \
 alias dus='du -s * | sort -g'
 
 # Git!
-alias gst='git status'
+alias gst='git status -s'
 alias gsh='git show'
 alias gco='git commit'
 alias gdi='git diff'
