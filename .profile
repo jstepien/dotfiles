@@ -36,8 +36,10 @@ alias dus='du -s * | sort -g'
 alias gst='git status -s'
 alias gsh='git show'
 alias gco='git commit'
+alias gcoa='git commit -a'
 alias gdi='git diff'
 alias gfa='git fetch --all'
+alias gitka='gitk --all'
 
 eval `TERM=xterm dircolors -b`
 
