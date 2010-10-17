@@ -31,6 +31,7 @@ alias httpd='python -m SimpleHTTPServer'
 alias buildtorrent="buildtorrent -a \
 	http://tracker.openbittorrent.com:80/announce"
 alias dus='du -s * | sort -g'
+alias mem="ps x -o rss= | xargs | sed 's/ /\+/g' | bc"
 
 # Git!
 alias gst='git status -s'

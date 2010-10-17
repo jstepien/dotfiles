@@ -9,10 +9,6 @@ complete -C "$HOME/.scripts/rake-complete.rb" -o default rake
 
 source ~/.profile
 
-function mem {
-	ps x -o rss | grep -v RSS | suma -
-}
-
 function grh {
 	grep "$*" ~/.bash_history
 }
