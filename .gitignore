@@ -1,10 +1,13 @@
 *
 !.bashrc
 !.gitignore
+!.gitmodules
 !.inputrc
 !.profile
 !.vim
 !.vim/autoload
+!.vim/bundle
+!.vim/bundle/VimClojure
 !.vim/autoload/pathogen.vim
 !.vim/colors
 !.vim/colors/mocha.vim

@@ -14,13 +14,14 @@ set scrolloff=3
 set showmode
 set list
 set listchars=tab:▸\ ,trail:·
-syntax on
 
 colorscheme mocha
 
 call pathogen#runtime_append_all_bundles()
 
+syntax on
 if has("autocmd")
+	filetype off
 	filetype plugin indent on
 else
 	set autoindent
