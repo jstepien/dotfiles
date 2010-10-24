@@ -18,6 +18,8 @@ syntax on
 
 colorscheme mocha
 
+call pathogen#runtime_append_all_bundles()
+
 if has("autocmd")
 	filetype plugin indent on
 else

@@ -4,6 +4,8 @@
 !.inputrc
 !.profile
 !.vim
+!.vim/autoload
+!.vim/autoload/pathogen.vim
 !.vim/colors
 !.vim/colors/mocha.vim
 !.vimrc
