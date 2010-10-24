@@ -11,6 +11,8 @@
 !.vim/autoload/pathogen.vim
 !.vim/colors
 !.vim/colors/mocha.vim
+!.vim/spell
+!.vim/spell/pl.utf-8.spl
 !.vimrc
 !.scripts
 !.scripts/rake-complete.rb
