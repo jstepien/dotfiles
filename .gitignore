@@ -14,6 +14,8 @@
 !.vim/autoload/pathogen.vim
 !.vim/colors
 !.vim/colors/mocha.vim
+!.vim/indent
+!.vim/indent/tex.vim
 !.vim/spell
 !.vim/spell/pl.utf-8.spl
 !.vimrc
