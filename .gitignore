@@ -9,6 +9,7 @@
 !.vim/bundle
 !.vim/bundle/command-t
 !.vim/bundle/VimClojure
+!.vim/bundle/vim-javascript
 !.vim/bundle/vim-markdown
 !.vim/bundle/vim-markdown/syntax
 !.vim/autoload/pathogen.vim
