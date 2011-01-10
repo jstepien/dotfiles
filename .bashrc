@@ -15,7 +15,7 @@ function grh {
 
 function svn {
 	if test "x$1" = "xdiff"; then
-		env svn $* | colordiff | less
+		env svn $* | colordiff | less -R
 	else
 		env svn $*
 	fi
