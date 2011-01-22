@@ -15,6 +15,7 @@ set scrolloff=3
 set showmode
 set list
 set listchars=tab:▸\ ,trail:·
+set history=1000
 
 colorscheme mocha
 
