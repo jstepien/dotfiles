@@ -22,3 +22,5 @@
 !.vimrc
 !.scripts
 !.scripts/rake-complete.rb
+!.vim/bundle/textobj-user
+!.vim/bundle/textobj-rubyblock

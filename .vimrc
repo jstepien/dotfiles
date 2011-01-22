@@ -31,6 +31,8 @@ endif
 
 let mapleader = ','
 
+runtime macros/matchit.vim
+
 nnoremap gr :tabprevious<CR>
 nnoremap <C-q> :qall<CR>
 nnoremap <C-n> :tabnew<CR>
