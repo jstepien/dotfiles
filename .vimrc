@@ -9,7 +9,8 @@ set hlsearch
 set wildmenu
 set tw=78
 set number
-set backupdir=~/.vim/backups,.,~
+set backupdir=~/.vim/backups,.,~,/tmp
+set directory=~/.vim/backups,.,~,/tmp
 set scrolloff=3
 set showmode
 set list
