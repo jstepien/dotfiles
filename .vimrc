@@ -39,6 +39,7 @@ nnoremap <C-n> :tabnew<CR>
 nnoremap <F12> :!ctags -R .<CR>
 nnoremap <leader>a GVgg
 inoremap kj <Esc>
+nnoremap ; :
 " Use normal regexps
 nnoremap / /\v
 vnoremap / /\v
