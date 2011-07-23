@@ -41,6 +41,7 @@ alias gcoa='git commit -a'
 alias gdi='git diff'
 alias gfa='git fetch --all'
 alias gitka='gitk --all'
+alias glg='git log --graph --oneline'
 
 eval `TERM=xterm dircolors -b`
 
