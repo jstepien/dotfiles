@@ -70,3 +70,7 @@ let vala_no_tab_space_error = 1
 
 " Squirrel
 au BufNewFile,BufRead *.nut setf squirrel
+
+" Ruby
+au BufNewFile,BufRead Gemfile setlocal filetype=ruby
+au BufNewFile,BufRead config.ru setlocal filetype=ruby
