@@ -57,12 +57,6 @@ vnoremap <f1> <esc>
 " Git
 au BufNewFile,BufRead COMMIT_EDITMSG setlocal textwidth=75 fileencoding=utf-8 encoding=utf-8 filetype=gitcommit spell
 
-" Markdown
-augroup markdown
-	au! BufRead,BufNewFile *.mkd   setfiletype mkd
-	au! BufRead,BufNewFile *.mdwn   setfiletype mkd
-augroup END
-
 " Vala
 autocmd BufRead *.vala set efm=%f:%l.%c-%[%^:]%#:\ %t%[%^:]%#:\ %m
 autocmd BufRead *.vapi set efm=%f:%l.%c-%[%^:]%#:\ %t%[%^:]%#:\ %m

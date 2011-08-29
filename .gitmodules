@@ -4,9 +4,9 @@
 [submodule ".vim/bundle/command-t"]
 	path = .vim/bundle/command-t
 	url = git://git.wincent.com/command-t.git
-[submodule ".vim/bundle/vim-markdown/syntax"]
-	path = .vim/bundle/vim-markdown/syntax
-	url = http://github.com/plasticboy/vim-markdown.git
+[submodule ".vim/bundle/vim-markdown"]
+	path = .vim/bundle/vim-markdown
+	url = git://github.com/plasticboy/vim-markdown.git
 [submodule ".vim/bundle/vim-javascript"]
 	path = .vim/bundle/vim-javascript
 	url = http://github.com/pangloss/vim-javascript.git
