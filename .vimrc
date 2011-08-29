@@ -31,6 +31,9 @@ endif
 
 let mapleader = ','
 
+" Remove trailing spaces automagically.
+autocmd BufWritePre * :%s/\s\+$//e
+
 runtime macros/matchit.vim
 
 nnoremap gr :tabprevious<CR>
