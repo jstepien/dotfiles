@@ -1,3 +1,4 @@
+*
 !.bashrc
 !.ctags
 !.gitignore
@@ -24,4 +25,3 @@
 !.vim/spell
 !.vim/spell/pl.utf-8.spl
 !.vimrc
-*
