@@ -45,4 +45,4 @@ alias glg='git log --graph --oneline'
 
 eval `TERM=xterm dircolors -b`
 
-test -f ~/.private && source ~/.private
+test -f ~/.private.sh && source ~/.private.sh
