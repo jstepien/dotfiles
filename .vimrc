@@ -72,3 +72,4 @@ au BufNewFile,BufRead *.nut setf squirrel
 " Ruby
 au BufNewFile,BufRead Gemfile setlocal filetype=ruby
 au BufNewFile,BufRead config.ru setlocal filetype=ruby
+au BufNewFile,BufRead Guardfile setlocal filetype=ruby
