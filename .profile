@@ -34,14 +34,16 @@ alias dus='du -s * | sort -g'
 alias mem="ps x -o rss= | xargs | sed 's/ /\+/g' | bc"
 
 # Git!
-alias gst='git status -s'
+alias gst='git status -s -b'
 alias gsh='git show'
 alias gco='git commit'
 alias gcoa='git commit -a'
 alias gdi='git diff'
+alias gdic='gdi --cached'
 alias gfa='git fetch --all'
 alias gitka='gitk --all'
-alias glg='git log --graph --oneline'
+alias glg='git log --graph --oneline --decorate'
+alias glag='git log --all --graph --oneline --decorate'
 
 eval `TERM=xterm dircolors -b`
 
