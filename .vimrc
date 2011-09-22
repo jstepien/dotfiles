@@ -9,7 +9,7 @@ set backspace=2
 set incsearch
 set hlsearch
 set wildmenu
-set tw=78
+set tw=80
 set number
 set backupdir=~/.vim/backups,.,~,/tmp
 set directory=~/.vim/backups,.,~,/tmp
