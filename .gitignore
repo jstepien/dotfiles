@@ -4,6 +4,7 @@
 !.ctags
 !.gitignore
 !.gitmodules
+!.gvimrc
 !.inputrc
 !.profile
 !.scripts

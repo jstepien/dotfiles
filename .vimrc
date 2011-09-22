@@ -38,7 +38,6 @@ runtime macros/matchit.vim
 
 nnoremap gr :tabprevious<CR>
 nnoremap <C-q> :qall<CR>
-nnoremap <C-n> :tabnew<CR>
 nnoremap <F12> :!ctags -R .<CR>
 nnoremap <leader>a GVgg
 inoremap kj <Esc>
