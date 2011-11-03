@@ -47,6 +47,8 @@ nnoremap ; :
 " Use normal regexps
 nnoremap / /\v
 vnoremap / /\v
+" Hide matches highlighting with Alt-/
+nnoremap <A-/> :nohls<CR>
 " Tab matches brackets
 nnoremap <tab> %
 vnoremap <tab> %
