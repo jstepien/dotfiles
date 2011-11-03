@@ -19,7 +19,7 @@ set list
 set listchars=tab:▸\ ,trail:·
 set history=1000
 
-colorscheme mocha
+colorscheme idleFingers
 
 call pathogen#runtime_append_all_bundles()
 

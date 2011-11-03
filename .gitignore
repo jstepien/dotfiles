@@ -21,6 +21,7 @@
 !.vim/bundle/vim-markdown
 !.vim/bundle/vim-markdown/syntax
 !.vim/colors
+!.vim/colors/idleFingers.vim
 !.vim/colors/mocha.vim
 !.vim/indent
 !.vim/indent/tex.vim
