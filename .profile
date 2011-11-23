@@ -32,6 +32,8 @@ alias buildtorrent="buildtorrent -a \
 	http://tracker.openbittorrent.com:80/announce"
 alias dus='du -s * | sort -g'
 alias mem="ps x -o rss= | xargs | sed 's/ /\+/g' | bc"
+alias pryr='pry -I. -r config/environment'
+alias o=xdg-open
 
 # Git!
 alias gst='git status -s -b'
