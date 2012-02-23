@@ -21,4 +21,9 @@ function svn {
 	fi
 }
 
+# Because `alias -='cd -' doesn't work.
+-() {
+  cd -
+}
+
 test -f /etc/bash_completion && source /etc/bash_completion
