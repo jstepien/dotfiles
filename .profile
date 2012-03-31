@@ -35,6 +35,7 @@ alias mem="ps x -o rss= | xargs | sed 's/ /\+/g' | bc"
 alias pryr='pry -I. -r config/environment'
 alias o=xdg-open
 alias ..='cd ..'
+alias -- -='cd -'
 
 # Git!
 alias gst='git status -s -b'
