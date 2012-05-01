@@ -27,4 +27,12 @@ function svn {
 	fi
 }
 
+function httpd {
+  if python -V 2>&1|grep -q ^Python.2; then
+    python -m SimpleHTTPServer
+  else
+    python2 -m SimpleHTTPServer
+  fi
+}
+
 test -f /etc/bash_completion && source /etc/bash_completion
