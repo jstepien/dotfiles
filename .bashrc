@@ -28,6 +28,7 @@ function svn {
 }
 
 function httpd {
+  ifconfig | grep -B1 inet | sed 's/^\([a-z0-9]\+:\).*/\1/'
   if python -V 2>&1|grep -q ^Python.2; then
     python -m SimpleHTTPServer
   else
