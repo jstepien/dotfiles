@@ -4,3 +4,5 @@ set guioptions-=m
 set columns=84
 set number
 nnoremap <C-n> :!gvim&<CR><CR>
+
+colorscheme idleFingers

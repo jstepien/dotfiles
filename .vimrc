@@ -18,8 +18,7 @@ set showmode
 set list
 set listchars=tab:▸\ ,trail:·
 set history=1000
-
-colorscheme idleFingers
+set bg=dark
 
 call pathogen#runtime_append_all_bundles()
 
