@@ -15,10 +15,10 @@ export INFOPATH="$INFOPATH:$HOME/share/info"
 export LD_LIBRARY_PATH="/usr/local/lib:$HOME/lib/"
 export TEXINPUTS=".:$HOME/latex/:"
 
-alias ls='ls --color=auto'
+alias ls='ls --color=auto -F'
 alias ll='ls -l'
-alias la='ls -a'
-alias lla='ls -la'
+alias la='ls -A'
+alias lla='la -l'
 alias time='/usr/bin/time'
 alias vi='vim'
 alias screen='screen -U'
