@@ -37,4 +37,10 @@ function httpd {
   fi
 }
 
+function randomize {
+  perl -ne 'print rand() . " " . $_ ' \
+    | sort -g --parallel=2 \
+    | sed 's,^[^ ]* ,,';
+}
+
 test -f /etc/bash_completion && source /etc/bash_completion
