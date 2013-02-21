@@ -1,4 +1,4 @@
-set guifont=Monaco\ 9
+set guifont=Source\ Code\ Pro\ Semi-Bold\ 9
 set guioptions-=T
 set guioptions-=m
 set columns=84
