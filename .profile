@@ -15,7 +15,11 @@ export INFOPATH="$INFOPATH:$HOME/share/info"
 export LD_LIBRARY_PATH="/usr/local/lib:$HOME/lib/"
 export TEXINPUTS=".:$HOME/latex/:"
 
-alias ls='ls --color=auto -F'
+if test x`uname` == xDarwin; then
+  alias ls='ls -GF'
+else
+  alias ls='ls --color=auto -F'
+fi
 alias ll='ls -l'
 alias la='ls -A'
 alias lla='la -l'
@@ -49,6 +53,8 @@ alias gitka='gitk --all'
 alias glg='git log --graph --oneline --decorate'
 alias glag='git log --all --graph --oneline --decorate'
 
-eval `TERM=xterm dircolors -b`
+if test x`uname` != xDarwin; then
+  eval `TERM=xterm dircolors -b`
+fi
 
 test -f ~/.private.sh && source ~/.private.sh
