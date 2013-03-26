@@ -20,6 +20,7 @@ set listchars=tab:▸\ ,trail:·
 set history=1000
 set bg=dark
 set nofsync
+set ruler
 
 call pathogen#runtime_append_all_bundles()
 
