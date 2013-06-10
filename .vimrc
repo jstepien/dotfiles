@@ -22,7 +22,7 @@ set bg=dark
 set nofsync
 set ruler
 
-call pathogen#runtime_append_all_bundles()
+execute pathogen#infect()
 
 syntax on
 if has("autocmd")
