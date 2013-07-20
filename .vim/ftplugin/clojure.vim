@@ -1,1 +1,1 @@
-nmap <leader>m vi(l<esc>%i(macroexpand '<esc>l%a)<esc>%lc!!%
+nmap <leader>m (i<C-v>(macroexpand '<esc>l%a<C-v>)<esc>%lc!!%
