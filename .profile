@@ -52,6 +52,7 @@ alias gfa='git fetch --all'
 alias gitka='gitk --all'
 alias glg='git log --graph --oneline --decorate'
 alias glag='git log --all --graph --oneline --decorate'
+alias gch='git checkout'
 
 if test x`uname` != xDarwin; then
   eval `TERM=xterm dircolors -b`
