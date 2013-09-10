@@ -28,3 +28,6 @@
 [submodule ".vim/bundle/vim-sexp.git"]
 	path = .vim/bundle/vim-sexp.git
 	url = https://github.com/guns/vim-sexp.git
+[submodule ".vim/bundle/ack.vim"]
+	path = .vim/bundle/ack.vim
+	url = https://github.com/mileszs/ack.vim
