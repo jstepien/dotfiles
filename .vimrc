@@ -45,6 +45,8 @@ nnoremap <F12> :!ctags -R .<CR>
 nnoremap <leader>a GVgg
 inoremap kj <Esc>
 nnoremap ; :
+vnoremap ; :
+nnoremap <leader>e :Explore<CR>
 " Use normal regexps
 nnoremap / /\v
 vnoremap / /\v
