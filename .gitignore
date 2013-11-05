@@ -14,9 +14,11 @@
 !.vim/autoload/pathogen.vim
 !.vim/bundle
 !.vim/bundle/VimClojure
+!.vim/bundle/ack.vim
 !.vim/bundle/command-t
 !.vim/bundle/textobj-rubyblock
 !.vim/bundle/textobj-user
+!.vim/bundle/vim-flavored-markdown
 !.vim/bundle/vim-javascript
 !.vim/bundle/vim-markdown
 !.vim/bundle/vim-markdown/syntax
@@ -28,5 +30,3 @@
 !.vim/spell
 !.vim/spell/pl.utf-8.spl
 !.vimrc
-!.vim/bundle/ack.vim
-!.vim/bundle/vim-flavored-markdown
