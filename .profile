@@ -53,6 +53,8 @@ alias gitka='gitk --all'
 alias glg='git log --graph --oneline --decorate'
 alias glag='git log --all --graph --oneline --decorate'
 alias gch='git checkout'
+alias gs='git stash'
+alias gsp='git stash pop'
 
 if test x`uname` != xDarwin; then
   eval `TERM=xterm dircolors -b`
