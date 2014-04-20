@@ -1,6 +1,7 @@
 *
 !.ackrc
 !.bashrc
+!.colordiffrc
 !.ctags
 !.gitignore
 !.gitmodules
