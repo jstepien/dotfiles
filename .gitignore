@@ -10,6 +10,7 @@
 !.profile
 !.scripts
 !.scripts/rake-complete.rb
+!.tmux.conf
 !.vim
 !.vim/autoload
 !.vim/autoload/pathogen.vim
