@@ -79,3 +79,5 @@ au BufNewFile,BufRead *.nut setf squirrel
 au BufNewFile,BufRead Gemfile setlocal filetype=ruby
 au BufNewFile,BufRead config.ru setlocal filetype=ruby
 au BufNewFile,BufRead Guardfile setlocal filetype=ruby
+
+let g:vim_markdown_folding_disabled=1
