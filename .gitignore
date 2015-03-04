@@ -24,6 +24,7 @@
 !.vim/bundle/vim-javascript
 !.vim/bundle/vim-markdown
 !.vim/bundle/vim-markdown/syntax
+!.vim/bundle/vim-surround
 !.vim/colors
 !.vim/colors/idleFingers.vim
 !.vim/colors/mocha.vim
