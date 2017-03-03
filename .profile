@@ -2,7 +2,7 @@ export LANG='pl_PL.UTF-8'
 export LC_ALL='pl_PL.UTF-8'
 export ECHANGELOG_USER='Jan Stępień (jano) <jstepien@users.sourceforge.net>'
 export PACKAGER='Jan Stępień <jstepien@users.sourceforge.net>'
-export EDITOR='vim'
+export EDITOR='nvim'
 export TSOCKS_CONF_FILE="$HOME/.tsocks.conf"
 # http://awesome.naquadah.org/wiki/Problems_with_Java
 export _JAVA_AWT_WM_NONREPARENTING=1
