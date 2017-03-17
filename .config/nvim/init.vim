@@ -22,6 +22,8 @@ Plug 'guns/vim-clojure-static'
 Plug 'tpope/vim-fireplace'
 Plug 'guns/vim-sexp'
 
+Plug 'elixir-lang/vim-elixir'
+
 call plug#end()
 
 let mapleader = ','
