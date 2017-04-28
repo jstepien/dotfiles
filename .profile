@@ -39,7 +39,6 @@ alias pryr='pry -I. -r config/environment'
 alias o=xdg-open
 alias ..='cd ..'
 alias -- -='cd -'
-alias e=gvim
 
 # Git!
 alias gst='git status -s -b'
