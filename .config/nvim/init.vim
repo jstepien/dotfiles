@@ -15,14 +15,24 @@ set ruler
 
 call plug#begin('~/.config/nvim/plugged')
 
+colorscheme morning
+
+Plug 'editorconfig/editorconfig-vim'
+
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'FelikZ/ctrlp-py-matcher'
 Plug 'artur-shaik/vim-javacomplete2'
+Plug 'tpope/vim-surround'
 
 Plug 'guns/vim-clojure-static'
 Plug 'tpope/vim-fireplace'
 Plug 'guns/vim-sexp'
 
 Plug 'elixir-lang/vim-elixir'
+
+Plug 'idris-hackers/idris-vim'
+
+Plug 'rust-lang/rust.vim'
 
 call plug#end()
 
@@ -57,3 +67,6 @@ au BufNewFile,BufRead COMMIT_EDITMSG setlocal textwidth=75 fileencoding=utf-8 en
 
 " Java
 autocmd FileType java setlocal omnifunc=javacomplete#Complete
+
+" ctrlp-py-matcher
+let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
