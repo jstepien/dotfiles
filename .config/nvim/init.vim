@@ -23,10 +23,12 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'FelikZ/ctrlp-py-matcher'
 Plug 'artur-shaik/vim-javacomplete2'
 Plug 'tpope/vim-surround'
+Plug 'Shougo/deoplete.nvim'
 
 Plug 'guns/vim-clojure-static'
 Plug 'tpope/vim-fireplace'
 Plug 'guns/vim-sexp'
+Plug 'clojure-vim/async-clj-omni'
 
 Plug 'elixir-lang/vim-elixir'
 
@@ -35,6 +37,10 @@ Plug 'idris-hackers/idris-vim'
 Plug 'rust-lang/rust.vim'
 
 call plug#end()
+
+let g:deoplete#enable_at_startup = 1
+let g:deoplete#keyword_patterns = {}
+let g:deoplete#keyword_patterns.clojure = '[\w!$%&*+/:<=>?@\^_~\-\.#]*'
 
 let mapleader = ','
 
